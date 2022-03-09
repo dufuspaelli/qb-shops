@@ -408,6 +408,32 @@ Config.Products = {
             slot = 1,
         }
     },
+    ["garage"] = {
+        [1] = {
+            name = 'repairkit',
+            price = 2000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 1,
+        },
+        [2] = {
+            name = 'advancedrepairkit',
+            price = 5000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 2,
+        },
+        [3] = {
+            name = 'weapon_gascan',
+            price = 1000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 3,
+        }
+    }
 }
 
 Config.Locations = {
@@ -797,6 +823,76 @@ Config.Locations = {
         },
         ["products"] = Config.Products["normal"],
         ["showblip"] = true,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "Popular St. Garage",
+        ["coords"] = {
+            [1] = vector3(728.29, -1083.2, 22.17),
+            [2] = vector3(729.97, -1084.03, 22.17)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "Carcer Way Garage",
+        ["coords"] = {
+            [1] = vector3(-346.97, -133.51, 39.01),
+            [2] = vector3(-346.97, -133.51, 39.01)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "LSIA Garage",
+        ["coords"] = {
+            [1] = vector3(-1147.17, -2002.22, 13.18),
+            [2] = vector3(-1147.17, -2002.22, 13.18)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "Boilingbroke Garage",
+        ["coords"] = {
+            [1] = vector3(1189.41, 2643.99, 38.4),
+            [2] = vector3(1189.41, 2643.99, 38.4)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "PDM Garage",
+        ["coords"] = {
+            [1] = vector3(-27.96, -1092.54, 26.42),
+            [2] = vector3(-27.96, -1092.54, 26.42)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "Strawberry Garage",
+        ["coords"] = {
+            [1] = vector3(472.03, -1309.94, 29.23),
+            [2] = vector3(472.03, -1309.94, 29.23)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52
+    },
+    ["mechanic"] = {
+        ["label"] = "Paleto Garage",
+        ["coords"] = {
+            [1] = vector3(102.8, 6614.09, 32.44),
+            [2] = vector3(102.8, 6614.09, 32.44)
+        },
+        ["products"] = Config.Products["garage"],
+        ["showblip"] = false,
         ["blipsprite"] = 52
     },
 }
