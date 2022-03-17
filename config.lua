@@ -433,6 +433,40 @@ Config.Products = {
             type = 'item',
             slot = 3,
         }
+    },
+    ["blackmarket"] = {
+        [1] = {
+            name = 'trojan_usb',
+            price = 2000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 1,
+        },
+        [2] = {
+            name = 'electronickit',
+            price = 5000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 2,
+        },
+        [3] = {
+            name = 'advancedlockpick',
+            price = 1000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 3,
+        },
+        [4] = {
+            name = 'thermite',
+            price = 2000,
+            amount = 999,
+            info = {},
+            type = 'item',
+            slot = 4,
+        },
     }
 }
 
@@ -835,7 +869,7 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
+    ["mechanic2"] = {
         ["label"] = "Carcer Way Garage",
         ["coords"] = {
             [1] = vector3(-346.97, -133.51, 39.01),
@@ -845,7 +879,7 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
+    ["mechanic3"] = {
         ["label"] = "LSIA Garage",
         ["coords"] = {
             [1] = vector3(-1147.17, -2002.22, 13.18),
@@ -855,7 +889,7 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
+    ["mechanic4"] = {
         ["label"] = "Boilingbroke Garage",
         ["coords"] = {
             [1] = vector3(1189.41, 2643.99, 38.4),
@@ -865,7 +899,7 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
+    ["mechanic5"] = {
         ["label"] = "PDM Garage",
         ["coords"] = {
             [1] = vector3(-27.96, -1092.54, 26.42),
@@ -875,7 +909,7 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
+    ["mechanic6"] = {
         ["label"] = "Strawberry Garage",
         ["coords"] = {
             [1] = vector3(472.03, -1309.94, 29.23),
@@ -885,14 +919,14 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
-    ["mechanic"] = {
-        ["label"] = "Paleto Garage",
+    ["blackmarket"] = {
+        ["label"] = "Lester",
         ["coords"] = {
-            [1] = vector3(102.8, 6614.09, 32.44),
-            [2] = vector3(102.8, 6614.09, 32.44)
+            [1] = vector3(706.14, -966.68, 30.41),
+            [2] = vector3(709.56, -963.5, 30.4)
         },
-        ["products"] = Config.Products["garage"],
-        ["showblip"] = false,
-        ["blipsprite"] = 52
+        ["products"] = Config.Products["blackmarket"],
+        ["showblip"] = true,
+        ["blipsprite"] = 80
     },
 }
