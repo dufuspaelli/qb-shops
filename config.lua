@@ -687,7 +687,7 @@ Config.Locations = {
             [1] = vector3(-421.84, 6136.09, 31.78)
         },
         ["products"] = Config.Products["hardware"],
-        ["showblip"] = true,
+        ["showblip"] = false,
         ["blipsprite"] = 402
     },
 
@@ -812,7 +812,7 @@ Config.Locations = {
             [1] = vector3(-633.72, 236.15, 81.88)
         },
         ["products"] = Config.Products["coffeeplace"],
-        ["showblip"] = true,
+        ["showblip"] = false,
         ["blipsprite"] = 52
     },
 
@@ -846,7 +846,7 @@ Config.Locations = {
             [2] = vector3(-160.66, 6322.85, 31.58)
         },
         ["products"] = Config.Products["normal"],
-        ["showblip"] = true,
+        ["showblip"] = false,
         ["blipsprite"] = 52
     },
     ["donscountrystore"] = {
